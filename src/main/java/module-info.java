@@ -8,7 +8,6 @@ module com.example.javafxlernrepo {
     requires net.synedra.validatorfx;
     requires org.kordamp.ikonli.javafx;
     requires org.kordamp.bootstrapfx.core;
-    requires eu.hansolo.tilesfx;
 
     opens com.example.javafxlernrepo to javafx.fxml;
     exports com.example.javafxlernrepo;
