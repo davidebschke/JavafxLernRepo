@@ -38,7 +38,5 @@ public class CreateFolderController {
         directoryPath=selectedDirectory.getAbsolutePath();
         return directoryPath;
 
-
-
     }
 }
