@@ -5,18 +5,10 @@ import javafx.scene.control.Label;
 
 import java.io.File;
 
-public class HelloController {
+public class CreateFolderController {
 
     @FXML
-    private Label welcomeText,byeText,folderCreate;
-
-    @FXML
-    protected void onHelloButtonClick() {
-        welcomeText.setText("Welcome to JavaFX Application!");
-    }
-
-    @FXML
-    protected void onByeButtonClick() {byeText.setText("Bye!");}
+    private Label folderCreate;
 
     @FXML
     public void onFolderCreateButtonClick() {
