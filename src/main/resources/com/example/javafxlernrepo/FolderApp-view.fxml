@@ -17,4 +17,6 @@
     </Text>
     <Label fx:id="folderCreate"/>
     <Button text="Create Folder" onAction="#onFolderCreateButtonClick"/>
+<Label fx:id="folderPath"/>
+    <Button text="Choose Path" onAction="#ondirectoryChooserButtonClick"/>
 </VBox>
