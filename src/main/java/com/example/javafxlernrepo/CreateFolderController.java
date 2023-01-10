@@ -19,7 +19,7 @@ public class CreateFolderController {
     public void onFolderCreateButtonClick() {
 
         String path= ChoosePathForDirectory();
-        // aktuell wird der ordner immer auf C gespeichert und mit den Name examples versehen
+        // aktuell wird der ordner immer mit den Namen examples versehen
 
         File f = new File(path+"\\Examples");
         if(f.mkdir()){
