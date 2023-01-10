@@ -32,13 +32,9 @@ public class CreateFolderController {
 
     public String ChoosePathForDirectory(){
 
-
         String directoryPath;
-
         File selectedDirectory = directoryChooser.showDialog(primarystage);
-
         directoryPath=selectedDirectory.getAbsolutePath();
-
         return directoryPath;
 
     }
