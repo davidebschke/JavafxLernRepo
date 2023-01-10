@@ -12,15 +12,16 @@ public class CreateFolderController {
     DirectoryChooser directoryChooser = new DirectoryChooser();
 
     @FXML
-    private Label folderCreate,folderPath;
+    private Label folderCreate;
     Stage primarystage= new Stage();
 
     @FXML
     public void onFolderCreateButtonClick() {
 
+        String path= ChoosePathForDirectory();
         // aktuell wird der ordner immer auf C gespeichert und mit den Name examples versehen
 
-        File f = new File("C:\\Examples");
+        File f = new File(path+"\\Examples");
         if(f.mkdir()){
             folderCreate.setText("Folder is Created");
         }
@@ -29,7 +30,7 @@ public class CreateFolderController {
         }
     }
 
-    public String ondirectoryChooserButtonClick(){
+    public String ChoosePathForDirectory(){
 
 
         String directoryPath;
@@ -37,8 +38,6 @@ public class CreateFolderController {
         File selectedDirectory = directoryChooser.showDialog(primarystage);
 
         directoryPath=selectedDirectory.getAbsolutePath();
-
-        folderPath.setText(directoryPath);
 
         return directoryPath;
 
