@@ -13,7 +13,7 @@ public class CreateFolderApplication extends Application {
     public void start(Stage stage) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(CreateFolderApplication.class.getResource("FolderApp-view.fxml"));
         Scene scene = new Scene(fxmlLoader.load(), 400, 400); // Größe des Angezeigten Desktop Fensters
-        stage.setTitle("Hello!");
+        stage.setTitle("Folder Creation"); // Titel der am Fenster angezeigt wird
         stage.setScene(scene);
         stage.show();
     }
