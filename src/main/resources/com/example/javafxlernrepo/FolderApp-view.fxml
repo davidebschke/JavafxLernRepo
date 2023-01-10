@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox spacing="20.0" xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.example.javafxlernrepo.CreateFolderController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
+    </padding>
+    <Text layoutX="30" stroke="Black" text="FolderCreation">
+        <font>
+            <Font name="Arial" size="20"/>
+        </font>
+    </Text>
+    <Label fx:id="folderCreate"/>
+    <Button text="Create Folder" onAction="#onFolderCreateButtonClick"/>
+</VBox>
