@@ -34,9 +34,7 @@ public class CreateFolderController {
 
         String directoryPath;
         File selectedDirectory = directoryChooser.showDialog(primarystage);
-
         directoryPath=selectedDirectory.getAbsolutePath();
         return directoryPath;
-
     }
 }
