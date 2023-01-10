@@ -1,3 +1,4 @@
-# Lerne Javafx
+# Javafx_FolderCreation
 
-Dies ist ein Repo rein zum lernen von Javafx. Da sind lernkommentare drin und auch sachen die vielleicht nicht wirklich Sinn ergeben.Freue mich dennoch es mit euch zu teilen.
+Mit diesen Desktop Tool möchte ich Ordner erstellen lasse mit einen Variablen Pfad und Passwortgeschützt
+Somit kann man leichter Ordner Passwort Schützen und benennen in einen Rutsch
