@@ -45,12 +45,11 @@ public class CreateFolderController {
         if(selectedDirectory==null)
         {
             directoryPath="";
-            return directoryPath;
         }
         else
         {
             directoryPath=selectedDirectory.getAbsolutePath();
-            return directoryPath;
         }
+        return directoryPath;
     }
 }
